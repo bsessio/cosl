@@ -1,0 +1,26 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.starkPhone {
+    background-image: url(https://k.nickpic.host/BVIzpf.png);
+    width: 385px;
+    height: 233px;
+}
+
+.textBox {
+   padding-top: 50px;
+   padding-left: 40px;
+   padding-right: 120px;
+   padding-bottom: 100px;
+   box-sizing: initial;
+}
+
+.text {
+    width: 225px;
+    height: 108px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d8dbcb;
+}

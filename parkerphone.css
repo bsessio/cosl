@@ -4,6 +4,7 @@ p {
 }
 
 .peterPhone {
+    margin: 0 auto;
     background-image: url(https://k.nickpic.host/Be56zn.gif);
     width: 500px;
     height: 209px;

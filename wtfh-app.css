@@ -1,0 +1,107 @@
+  .inner {
+    padding: 5px;
+    background: black;
+    color: white;
+    width: 500px;
+    box-sizing: border-box;
+  }
+  
+  .header img {
+    width: 100%;
+  }
+  
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav > li {
+    flex: 1;
+    width: 22%;
+    padding: 10px;
+    background: rgba(220,220,220,.6);
+    text-align: center;
+  }
+  
+  .nav > li + li {
+    margin: 0 0 0 3px;
+  }
+  
+  .nav > li.active {
+    background: rgba(255,255,255,.3);
+  }
+  
+  .tab {
+    padding: 10px;
+    display: none;
+    background: rgba(255,255,255,.3);
+    height: 400px;
+    overflow: scroll;
+  }
+  
+  .tab.active {
+    display: block;
+  }  
+  
+  .appholder, .appheader, .page {
+        box-sizing:border-box;
+    }
+    
+  .appholder {
+    border-top: 2px lightgray solid;
+    border-bottom: 2px lightgray solid;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .appheader {
+    color: white;
+    border: gray 1px solid;
+    width: 100%;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(29, 29, 29);
+    column-count: 2;
+    column-gap: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+    overflow-wrap: normal;
+  }
+  
+  .page {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 15px;
+    border: 2px solid darkgray; 
+  }
+  
+    .page b, .page i, .page a, .appheader b, .appheader i, .appheader a {
+      color: rgb(184, 61, 47);
+    }
+    
+    .page a, .appheader a {
+      text-decoration: none;
+    }
+  
+  .page h1, .page h2 {
+    padding: 5px;
+    border: 1px solid silver;
+  } 
+  
+  .page h1 {
+    background-color: rgb(184, 61, 47);
+    text-align: center;
+  }
+  
+  .page h2 {
+    background-color: rgb(122, 39, 30);
+    text-align: right;
+  }
+  
+  .page p {
+    line-height: 1.;
+  }

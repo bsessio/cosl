@@ -1,4 +1,4 @@
- .post b,
+.post b,
   .post i,
   .post a {
     color: #2f65b8;
@@ -34,7 +34,6 @@
 
   .postheader {
     overflow: hidden;
-    box-shadow: ;
   }
 
   .postfooter {
@@ -44,14 +43,18 @@
   .headerpic,
   .footerpic {
     width: 100%;
-    opacity: 0.15;
+    opacity: 0.3;
     filter: grayscale(1);
   }
 
-  .footerpic {
+.headerpic {
+    object-fit: cover;
+}
+
+.footerpic {
     object-fit: cover;
     width: 100%;
-    height: 100px;
+    height: 100%;
   }
 
   .post {

@@ -1,0 +1,85 @@
+.whoswho {
+  width: 520px;
+  border: 3px solid #235FBA;
+  box-shadow: 1px 1px 5px gray;
+  background: #1D1E21;
+  color: #235FBA;
+  padding: 5px 5px 55px;
+  text-align: center;
+  margin: 15px auto;
+  background-image: url(https://k.nickpic.host/bjOBXG.png);
+  background-size: 205px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+.whoname {
+  position: absolute;
+  color: rgb(201, 201, 201);
+  left: 16px;
+  bottom: 8px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.whodeets {
+  position: absolute;
+  color: rgb(201, 201, 201);
+  text-align: right;
+  right: 8px;
+  bottom: 1px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.whoswho h1 {
+  text-transform: uppercase;
+  margin: 3px 1px 0px 1px;
+}
+
+.whoswho p {
+  margin: 0 1px 5px 1px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.whobox {
+  opacity: 0.93;
+  position: relative;
+  margin: 15px 4.6px 0px 4.6px;
+  width: 110px;
+  height: 110px;
+  border: 2px solid #235FBA;
+  /* float: left; */
+  display: inline-block;
+}
+
+.whobox img {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+/* 
+.whoboxholder {
+  margin: 0px auto 50px auto;
+} */
+
+.title {
+  text-transform: uppercase;
+  font-size: 10px;
+  position: absolute;
+  width: 117px;
+  bottom: 5px;
+  left: -5px;
+  border: 2px solid black;
+  background: #235FBA
+}
+
+.whoswho a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}

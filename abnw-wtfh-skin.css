@@ -1,8 +1,8 @@
 .charBox, .charBox img {
-  height: 37px;
-  width: 37px;
+  height: 37px !important;
+  width: 37px !important;
 }
 
 .charBoxholder {
-  height: 47px;
+  height: 47px !important;
 }

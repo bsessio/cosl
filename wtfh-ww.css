@@ -1,10 +1,10 @@
 .whoswho {
-  width: 680px;
+  width: 520px;
   border: 3px solid #BD2821;
   box-shadow: 1px 1px 5px gray;
   background: #1D1E21;
   color: #BD2821;
-  padding: 5px;
+  padding: 5px 5px 55px;
   text-align: center;
   margin: 15px auto;
   background-image: url(https://k.nickpic.host/bo7dqb.png);
@@ -12,8 +12,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  min-height: 170px;
-  max-height: 300px;
+  text-align: center;
 }
 
 .whoname {
@@ -51,7 +50,8 @@
   width: 110px;
   height: 110px;
   border: 2px solid #BD2821;
-  float: left;
+  /* float: left; */
+  display: inline-block;
 }
 
 .whobox img {
@@ -62,13 +62,10 @@
 .clearfix {
   clear: both;
 }
-
+/* 
 .whoboxholder {
-  /* width: 680px; */
-  padding: 0 93px;
   margin: 0px auto 50px auto;
-  /* position: relative; */
-}
+} */
 
 .title {
   text-transform: uppercase;

@@ -1,0 +1,31 @@
+.affiliations {
+    width: 275px;
+}
+
+.scrollbox {
+    max-height: 5000px;
+    min-height: 70px;
+    max-width: 5000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0)
+}
+
+.scrollbox > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0)
+}
+
+.scroll {
+    animation: moveSlideshow 12s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateY(-66.6666%);  
+    }
+  }

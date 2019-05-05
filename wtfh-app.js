@@ -1,6 +1,6 @@
-let navs = document.querySelectorAll('.nav li');
-let contents = document.querySelectorAll('.tab');
-let x = window.matchMedia("(max-width: 1366px)")
+let appNavs = document.querySelectorAll('.nav li');
+let appContents = document.querySelectorAll('.tab');
+let appX = window.matchMedia("(max-width: 1366px)")
 !function(t){"use strict";
              function e(t,e){
               return function(o){
@@ -14,10 +14,10 @@ let x = window.matchMedia("(max-width: 1366px)")
              }}
             (this);
 
-function myFunction(x) {
- if(x.matches)
+function appMediaQuery(appX) {
+ if(appX.matches)
     {
- toggler = (excl, allEls) => {
+ appToggler = (excl, allEls) => {
   allEls.forEach((v, k) => {
     if (excl != k) {
       v.classList.remove('active');
@@ -25,21 +25,21 @@ function myFunction(x) {
   });
   }
 
-  navs.forEach((v, k) => {
+  appNavs.forEach((v, k) => {
     v.addEventListener('click', (e, i) => {
       v.classList.add('active');
-      toggler(k, navs);
-      contents[k].classList.add('active');
-      toggler(k, contents);
+      appToggler(k, appNnavs);
+      appContents[k].classList.add('active');
+      appToggler(k, appContents);
     });
   });
 }
 else {
 addDynamicEventListener(document.body, 'click', '.nav, li', function (e) {
-  let navs = document.querySelectorAll('.nav li');
-  let contents = document.querySelectorAll('.tab');
+  let appNavs = document.querySelectorAll('.nav li');
+  let appContents = document.querySelectorAll('.tab');
 
-  toggler = (excl, allEls) => {
+  appToggler = (excl, allEls) => {
   allEls.forEach((v, k) => {
     if (excl != k) {
       v.classList.remove('active');
@@ -47,17 +47,17 @@ addDynamicEventListener(document.body, 'click', '.nav, li', function (e) {
   });
   }
 
-  navs.forEach((v, k) => {
+  appNavs.forEach((v, k) => {
     v.addEventListener('click', (e, i) => {
       v.classList.add('active');
-      toggler(k, navs);
-      contents[k].classList.add('active');
-      toggler(k, contents);
+      appToggler(k, appNavs);
+      appContents[k].classList.add('active');
+      appToggler(k, appContents);
     });
   });
 });
 }
 }
 
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
+appMediaQuery(appX) // Call listener function at run time
+appX.addListener(appMediaQuery) // Attach listener function on state changes

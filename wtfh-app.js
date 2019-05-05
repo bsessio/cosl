@@ -28,7 +28,7 @@ function appMediaQuery(appX) {
   appNavs.forEach((v, k) => {
     v.addEventListener('click', (e, i) => {
       v.classList.add('active');
-      appToggler(k, appNnavs);
+      appToggler(k, appNavs);
       appContents[k].classList.add('active');
       appToggler(k, appContents);
     });

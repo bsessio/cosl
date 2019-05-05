@@ -55,7 +55,7 @@ addDynamicEventListener(document.body, 'click', '.nav, li', function (e) {
       appToggler(k, appContents);
     });
   });
-});
+}); 
 }
 }
 

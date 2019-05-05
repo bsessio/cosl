@@ -1,8 +1,9 @@
 let navs = document.querySelectorAll('.nav li');
 let contents = document.querySelectorAll('.tab');
- 
+let x = window.matchMedia("(max-width: 1366px)")
+
 function myFunction(x) {
- if(window.matchMedia("(max-width: 1366px)")
+ if(x.matches)
     {
  toggler = (excl, allEls) => {
   allEls.forEach((v, k) => {
@@ -46,3 +47,6 @@ addDynamicEventListener(document.body, 'click', '.nav, li', function (e) {
   });
 });
 }
+
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes

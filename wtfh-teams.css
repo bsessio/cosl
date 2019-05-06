@@ -1,0 +1,105 @@
+.team {
+    width: 520px;
+    border: 3px solid #BD2821;
+    box-shadow: 1px 1px 5px gray;
+    background: #1D1E21;
+    color: #BD2821;
+    padding: 5px 5px 15px;
+    text-align: center;
+    margin: 15px auto;
+    background-size: 205px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .taken {
+    filter: grayscale(100);
+  }
+
+  .hidden {
+      display: none;
+  }
+
+.revealed {
+    display: block;
+}
+
+  .teamImg {
+      /* bottom: 0; */
+      z-index:  0;
+      margin: 0 auto;
+      position: relative;
+      height: 125px;
+      width: 125px;
+  }
+
+  .teamname {
+    position: absolute;
+    color: rgb(201, 201, 201);
+    left: 16px;
+    bottom: 8px;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  .teamdeets {
+    position: absolute;
+    color: rgb(201, 201, 201);
+    text-align: left;
+    left: 16px;
+    bottom: 25px;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  .team h1 {
+    text-transform: uppercase;
+    margin: 3px 1px 0px 1px;
+  }
+  
+  .whoswho p {
+    margin: 0 1px 5px 1px;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  
+  .member {
+    opacity: 0.93;
+    position: relative;
+    margin: 15px 4.6px 0px 4.6px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #BD2821;
+    /* float: left; */
+    display: inline-block;
+  }
+  
+  .member img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    font-size: 10px;
+    position: absolute;
+    width: 117px;
+    bottom: 5px;
+    left: -5px;
+    border: 2px solid black;
+    background: #BD2821
+  }
+  
+  .team a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .spacer {
+      margin-bottom: 50px;
+  }

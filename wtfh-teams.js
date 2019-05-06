@@ -1,0 +1,10 @@
+function reveal(ident) {
+    revealing=document.getElementById(ident).classList;
+    if(revealing[0] === 'hidden') revealing.remove("hidden");
+    else revealing.add("hidden");
+}
+
+document.addEventListener("click", (e, err) => {
+    let ident = e.path[0].attributes[0].value;
+    if (ident) reveal(ident)
+  })

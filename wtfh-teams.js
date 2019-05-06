@@ -8,6 +8,6 @@ function reveal(ident) {
 };
 
 document.addEventListener("click", (e) => {
-    let ident = e.path[0].attributes[0].value;
+    let ident = e.target.dataset.attr;
     if (ident) reveal(ident)
   });

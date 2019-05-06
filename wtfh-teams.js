@@ -8,8 +8,3 @@ document.addEventListener("click", (e) => {
     let ident = e.path[0].attributes[0].value;
     if (ident) reveal(ident)
   });
-
-document.addEventListener("touchstart", (e) => {
-    let ident = e.path[0].attributes[0].value;
-    if (ident) reveal(ident)
-  });

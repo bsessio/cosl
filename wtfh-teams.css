@@ -20,7 +20,7 @@
       background:#1d1E21;
       color: white;
       font-weight: bolder;
-      box-shadow: 1px 1px 3px gray;
+      box-shadow: 0px 0px 3px gray;
       text-shadow: 1px 1px 3px gray;
       margin: 2px;
       position: relative;
@@ -29,7 +29,7 @@
   }
 
   .teamDisplay {
-      width: 50%;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
   }

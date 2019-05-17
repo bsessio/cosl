@@ -92,6 +92,7 @@
   .page h1, .page h2 {
     padding: 5px;
     border: 1px solid silver;
+    line-height: 0.8em;
   } 
   
   .page h1 {

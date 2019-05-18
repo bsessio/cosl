@@ -79,6 +79,7 @@
     color: white;
     padding: 15px;
     border: 2px solid darkgray; 
+    text-align: justify;
   }
   
     .page b, .page i, .page a, .appheader b, .appheader i, .appheader a {

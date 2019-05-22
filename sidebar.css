@@ -8,8 +8,12 @@
     height: 350px;
     position: relative;
     top: -60px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
+
+.sidebar-main-content::-webkit-scrollbar {
+    width: 0;
+}
 
 .sidebar-navbar {
     position: relative;

@@ -63,7 +63,7 @@
 
 .sidebar-newsHeader {
     border-radius: 25px 25px 0 0;
-    background-color: rgb(172, 48, 24);
+    background-color: #B72921;
     color: rgb(241, 240, 236);
     width: 190px;
     box-sizing: border-box;
@@ -87,7 +87,7 @@
 }
 
 .sidebar-newsButton {
-    background-color: rgb(172, 48, 24);
+    background-color: #B72921;
     color: rgb(241, 240, 236);
     padding: 5px;
     width: 50px;

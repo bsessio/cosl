@@ -1,6 +1,8 @@
 .sidebar {
     width: 215px;
-    height: 475px;
+    height: 425px;
+    top: 10px;
+    position: relative;
     background: #000;
 }
 
@@ -8,7 +10,7 @@
     overflow-y: hidden;
     height: 350px;
     position: relative;
-    top: -60px;
+    top: -10px;
     overflow-y: scroll;
   }
 
@@ -42,7 +44,7 @@
 
 .sidebar-footer {
     position: relative;
-    top: 340px;
+    top: 390px;
     display: block;
     width: 215px;
 }

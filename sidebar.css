@@ -1,6 +1,7 @@
 .sidebar {
     width: 215px;
     height: 475px;
+    background: #000;
 }
 
 .sidebar-main-content {

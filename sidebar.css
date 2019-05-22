@@ -17,6 +17,7 @@
     z-index: 997;
     width: 75px;
     margin: 3px auto;
+    top: -5px;
 }
 
 .sidebar-nav-wrapper img {

@@ -4,6 +4,7 @@
     top: 10px;
     position: relative;
     background: #000;
+    border-radius: 25px 25px 0 0;
 }
 
 .sidebar-main-content {

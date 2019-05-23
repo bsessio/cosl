@@ -102,3 +102,25 @@
     text-decoration: none;
     color: rgb(241, 240, 236);
 }
+
+@media screen and (max-width: 1440px) {
+    .sidebar {
+        height: 375px;
+    }
+
+    .sidebar-main-content {
+        height: 310px;
+    }
+
+   .sidebar-footer {
+       top: 340px;
+   }
+
+   .chatterBox {
+       height: 425px !important;
+   }
+
+    .chatterAffiliates {
+        margin-top: 0 !important;
+    }  
+}

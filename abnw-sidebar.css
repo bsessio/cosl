@@ -1,0 +1,126 @@
+.sidebar {
+    width: 215px;
+    height: 425px;
+    top: 10px;
+    position: relative;
+    background: #000;
+    border-radius: 25px 25px 0 0;
+}
+
+.sidebar-main-content {
+    overflow-y: hidden;
+    height: 362px;
+    position: relative;
+    top: -20px;
+    overflow-y: scroll;
+  }
+
+.sidebar-main-content::-webkit-scrollbar {
+    width: 0;
+}
+
+.sidebar-navbar {
+    position: relative;
+    height: 25px;
+    z-index: 997;
+    width: 75px;
+    margin: 3px auto;
+    top: -5px;
+}
+
+.sidebar-nav-wrapper img {
+    margin: 2px auto;
+}
+
+.sidebar-nav-wrapper {
+    position: relative;
+    height: 100%;
+    top: -10px;
+}
+
+.sidebar-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.sidebar-footer {
+    position: relative;
+    top: 390px;
+    display: block;
+    width: 215px;
+}
+
+.sidebar-footercontainer {
+    margin-left: -0px!important;
+    padding-left: -4px!important;
+    bottom: 0;
+}
+
+.sidebar-footercontainer img {
+    width: 100%;
+}
+
+.sidebar-newsHeader {
+    border-radius: 25px 25px 0 0;
+    background-color: #215FBA;
+    color: rgb(241, 240, 236);
+    width: 190px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+}
+
+.sidebar-newsBlock {
+    width: 190px;
+    box-sizing: border-box;
+    margin: 0 auto 10px auto;
+    background-color: rgb(241, 240, 236);
+    padding: 5px 15px 5px;
+    border-radius: 0 0 25px 25px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.sidebar-newsButton {
+    background-color: #215FBA;
+    color: rgb(241, 240, 236);
+    padding: 5px;
+    width: 50px;
+    margin: 5px auto 2px auto;
+    display: block;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sidebar-newsBlock a {
+    text-decoration: none;
+    color: rgb(241, 240, 236);
+}
+
+@media screen and (max-width: 1440px) {
+    .sidebar {
+        height: 375px;
+    }
+
+    .sidebar-main-content {
+        height: 310px;
+    }
+
+   .sidebar-footer {
+       top: 340px;
+   }
+
+   .chatterBox {
+       height: 425px !important;
+   }
+
+    .chatterAffiliates {
+        margin-top: 0 !important;
+    }  
+}

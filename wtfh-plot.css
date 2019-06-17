@@ -1,0 +1,189 @@
+.inner {
+    padding: 2px 5px 5px 5px;
+    background: black;
+    color: white;
+    width: 500px;
+	box-sizing: border-box;
+	border-radius: 10px;
+  }
+  
+  .header img {
+    width: 100%;
+	max-height: 240px;
+	border-radius: 50px;
+  }
+  
+  .nav {
+    margin: 3px auto;
+	padding: 0;
+	position: relative;
+    list-style-type: none;
+    display: flex;
+	justify-content: space-between;
+  }
+  
+  .nav > li {
+    /* flex: 1; */
+	width: 22%;
+    padding: 10px;
+    background: #B83C2E;
+	text-align: center;
+	min-height: 1em;
+    display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	/* font-weight: bold; */
+  }
+  
+  .nav > li + li {
+    margin: 0 0 0 3px;
+  }
+  
+  .nav > li.active {
+    background: rgba(172, 0, 0, 0.523);
+  }
+  
+  main {
+	margin-top: 10px;
+	overflow: scroll;
+	height: 320px;
+  }
+
+  .buttons {
+	  display: block;
+	  position: relative;
+	  width: 33%;
+	  margin: 0 auto;
+  }
+
+  .tab, main {
+    padding: 10px;
+  }
+
+  .tab {
+    height: 750px;
+	display: none;
+    background: rgba(255,255,255,.3);
+  }
+
+  .tab::-webkit-scrollbar { width: 0; height: 0 }
+  
+  .tab.active {
+    display: block;
+  }  
+  
+  .plotholder, .plotheader, .page {
+        box-sizing:border-box;
+    }
+    
+  .plotholder {
+    /* border-top: 2px lightgray solid;
+    border-bottom: 2px lightgray solid; */
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .plotheader {
+    color: white;
+    width: 100%;
+    padding-left: 20px;
+    background-color: rgb(29, 29, 29);
+    line-height: 1.5;
+    overflow: hidden;
+    overflow-wrap: normal;
+  }
+  
+  .page {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 15px;
+    /* border: 2px solid darkgray;  */
+    text-align: justify;
+  }
+  
+    .page b, .page i, .page a, .plotheader b, .plotheader i, .plotheader a {
+      color: rgb(184, 61, 47);
+    }
+    
+    .page a, .plotheader a {
+      text-decoration: none;
+    }
+  
+  .page h1, .page h2 {
+    padding: 10px;
+    /* border: 1px solid silver; */
+	line-height: 1em;
+	text-transform: uppercase;
+	border-radius: 10px;
+  } 
+  
+  .page h1 {
+    background-color: rgb(184, 61, 47);
+    text-align: center;
+  }
+  
+  .page h2 {
+    background-color: rgb(122, 39, 30);
+    text-align: right;
+  }
+  
+  .page p {
+    line-height: 1.;
+  }
+
+  .page button {
+	/* display: block;
+	border: #BD2821 solid 1px;
+	padding: 5px;
+	background:#1d1E21;
+	color: white;
+	font-weight: bolder;
+	margin: 2px;
+	position: relative;
+	border: 2px solid #BD2821;
+	display: inline-block; */
+	/* width: 45%; */
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+    padding: 10px;
+    background: #B83C2E;
+	text-align: center;
+	min-height: 1em;
+    display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
+	border: none;
+	border-radius: 5px;
+}
+
+.page button:active{background-color: rgba(172, 0, 0, 0.523);;}
+
+.hidden {
+	display: none;
+}
+
+.revealed {
+  display: block;
+}
+
+main p {
+	background: rgb(70, 70, 70);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+main h5 {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	/* width: 200px; */
+	/* height: 10px; */
+	white-space: nowrap;
+}
+
+main h5::-webkit-scrollbar { 
+    display: none; 
+}

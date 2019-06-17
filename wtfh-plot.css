@@ -184,6 +184,6 @@ main h5 {
 	white-space: nowrap;
 }
 
-main::-webkit-scrollbar { 
+main::-webkit-scrollbar, main h5::-webkit-scrollbar { 
     display: none; 
 }

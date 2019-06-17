@@ -17,7 +17,20 @@ let appX = window.matchMedia("(max-width: 1366px)")
 
 function reveal(ident) {
 	revealing=document.getElementById(ident).classList;
-	if(revealing[0] == 'hidden') revealing.remove("hidden");
+	if(revealing[0] == 'hidden') {
+		let newIdent = ident[0]+ident[1]+ident[2]+ident[3]+ident[4]+ident[5]+ident[6];
+		let newIdentNo = ident[7];
+
+		revealing.remove("hidden");
+		if (newIdent === "plotter") {
+			let track = "tracker"+newIdentNo;
+			document.getElementById(track).classList.add("hidden");
+		}
+		else if (newIdent === "tracker") {
+			let plot = "plotter"+newIdentNo;
+			document.getElementById(plot).classList.add("hidden");
+		}
+	}
 	else revealing.add("hidden");
 };
 

@@ -18,7 +18,7 @@ let appX = window.matchMedia("(max-width: 1366px)")
 function reveal(ident) {
 	// if (ident === 'button') {
 	// let ident = 
-	revealing=document.getElementById(ident).classList;
+	revealing=document.getElementById(ident).classList || null;
 	revealingTest = [revealing[0], revealing["value"]]
 	console.log(revealingTest);
 	

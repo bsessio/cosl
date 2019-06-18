@@ -55,8 +55,8 @@
   .buttons {
 	  display: block;
 	  position: relative;
-	  width: 33%;
-	  margin: 0 auto;
+	  width: 245px;
+	  margin: 0 162px;
   }
 
   .tab, main {
@@ -145,7 +145,7 @@
 	position: relative;
 	border: 2px solid #BD2821;
 	display: inline-block; */
-	/* width: 45%; */
+	width: 75px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: white;
@@ -184,6 +184,6 @@ main h5 {
 	white-space: nowrap;
 }
 
-main::-webkit-scrollbar, main h5::-webkit-scrollbar { 
+main::-webkit-scrollbar, main h5::-webkit-scrollbar	 { 
     display: none; 
 }

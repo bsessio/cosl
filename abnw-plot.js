@@ -22,13 +22,10 @@ function reveal(ident) {
 	revealingTest = [revealing[0], revealing["value"]]
 	console.log(revealingTest);
 	
-	if (ident === 'wrapper') {
-		if (revealingTest[1] === "hidden" || revealingTest[1] === "")
-		console.log("Hi");		
+	if (ident === 'wrapper' || ident === 'content') {
+		return;		
 	}
-	console.log(revealing);
-	
-	debugger;
+	else {
 
 	if(revealing[0] == 'hidden') {
 		let newIdent = ident[0]+ident[1]+ident[2]+ident[3]+ident[4]+ident[5]+ident[6];
@@ -52,6 +49,7 @@ function reveal(ident) {
 	// 	console.log("Not valid");
 		
 	// }
+}
 };
 
 document.addEventListener("click", (e, err) => {

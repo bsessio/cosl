@@ -22,7 +22,7 @@ function reveal(ident) {
 	revealingTest = [revealing[0], revealing["value"]]
 	console.log(revealingTest);
 	
-	if (ident === 'wrapper' || ident === 'content') {
+	if (ident === 'wrapper' || ident === 'content' || ident === null) {
 		return;		
 	}
 	else {

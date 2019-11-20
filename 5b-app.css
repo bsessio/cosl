@@ -1,0 +1,153 @@
+.inner {
+    padding: 5px;
+    background: black;
+    color: white;
+    width: 500px;
+	box-sizing: border-box;
+	border-radius: 10px;
+  }
+  
+  .header img {
+    width: 100%;
+	max-height: 240px;
+	border-radius: 10px 10px 0 0;
+  }
+  
+  .nav {
+    margin: 5px 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav > li {
+    flex: 1;
+    width: 22%;
+    padding: 10px;
+    background: rgba(220,220,220,.6);
+    text-align: center;
+  }
+  
+  .nav > li + li {
+    margin: 0 0 0 3px;
+  }
+  
+  .nav > li.active {
+    background: rgba(255,255,255,.3);
+  }
+  
+  .tab {
+    padding: 10px;
+    display: none;
+    background: rgba(255,255,255,.3);
+    height: 400px;
+    overflow: scroll;
+  }
+
+  .tab::-webkit-scrollbar { width: 0; height: 0 }
+  
+  .tab.active {
+    display: block;
+  }  
+  
+  .appholder, .appheader, .page {
+        box-sizing:border-box;
+    }
+    
+  .appholder {
+    border-top: 2px lightgray solid;
+    border-bottom: 2px lightgray solid;
+	border-radius: 10px;
+    width: 500px;
+	margin: 0 auto;
+  }
+  
+  .appheader {
+    color: white;
+    border: 1px solid var(--accent);
+    width: 100%;
+    height: 80px;
+    padding-left: 20px;
+    background-color: rgb(29, 29, 29);
+    column-count: 2;
+    column-gap: 20px;
+    overflow: hidden;
+	white-space: break-spaces;
+	overflow-wrap: normal;
+    margin: 5px 0;
+  }
+  
+  .page {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 15px;
+    border: 2px solid var(--accent); 
+	border-radius: 0 0 10px 10px;
+    text-align: justify;
+  }
+  
+    .page b, .page i, .page a, .appheader b, .appheader i, .appheader a {
+      color: var(--accent);
+    }
+    
+    .page a, .appheader a {
+      text-decoration: none;
+    }
+  
+  .page h1, .page h2 {
+    padding: 10px;
+    border: 1px solid var(--accent);
+	;
+	border-radius: 10px;
+    line-height: 1em;
+  } 
+  
+  .page h1 {
+    background-color: var(--accent);
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  
+  .page p {
+    line-height: 1.;
+	white-space: break-spaces;
+	margin: 0;
+	padding: 0;
+  }
+
+  .abilityScale {
+	  font-size: 14px;
+      font-weight: bold;
+	  height: 20px;  /* Can be anything */
+	  position: relative;
+	  background: var(--accent);
+	  -moz-border-radius: 25px;
+	  -webkit-border-radius: 25px;
+	  border-radius: 25px;
+	  padding: 10px;
+	  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	  width: 95%;
+	  margin-bottom: 10px;
+	  text-align: center;
+  }
+
+  .abilityScale > span {
+	display: block;
+	height: 100%;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #555;
+	box-shadow: 
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
+  }
+
+  blockquote {
+	  white-space: break-spaces;
+  }

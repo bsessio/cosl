@@ -88,7 +88,9 @@
   }
   
     .page b, .page i, .page a, .appheader b, .appheader i, .appheader a {
-      color: var(--accent);
+	  color: var(--accent);
+	  filter: brightness(4.5);
+	  text-transform: uppercase;
     }
     
     .page a, .appheader a {
@@ -98,13 +100,14 @@
   .page h1, .page h2 {
     padding: 10px;
     border: 1px solid var(--accent);
-	;
 	border-radius: 10px;
-    line-height: 1em;
+	line-height: 1em;
+	text-transform: uppercase;
   } 
   
   .page h1 {
-    background-color: var(--accent);
+	background-color: var(--accent);
+	filter: brightness(2);
     text-align: center;
     margin-top: -5px;
   }

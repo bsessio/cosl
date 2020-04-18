@@ -5,17 +5,13 @@ window.dataLayer = window.dataLayer || [];
   gtag('config', 'UA-136606924-1');
 
 const date = new Date().getFullYear();
-console.log(date);
-        
+
 // external js: isotope.pkgd.js
 
 $(document).ready( function() {
   
   const fullCharList = document.querySelectorAll(".chara");
   var charList = Object.values(fullCharList);
-  // console.log(charList);
-//   
-  console.log(charList.length, charList[0].dataset.birth);
   
   charList.forEach(char => {
     if (char.dataset.birth) {

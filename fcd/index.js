@@ -15,7 +15,7 @@ $(document).ready( function() {
   
   charList.forEach(char => {
     if (char.dataset.birth) {
-      const age = date-char.dataset.birth
+      const age = (date-char.dataset.birth)-1;
       switch (true) {
         case (age <= 12):
             char.classList.add('0');

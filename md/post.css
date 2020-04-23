@@ -23,6 +23,7 @@
 }
 
 .mDPost {
+  margin: 0 auto;
   min-height: 100px;
   width: 475px;
 /*   border-top: 10px solid #a05b5a; */

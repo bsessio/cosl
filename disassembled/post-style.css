@@ -1,0 +1,78 @@
+.mDBaseCenter {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom right, #222222 50%, #A05B5A 50%);
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.mDBaseRight {
+  height: 100px;
+  width: 100px;
+  background: #A05B5A;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.mDBaseRight img {
+  width: 90px;
+  height: 90px;
+  margin: 10px 8px 0 0;
+}
+
+.mDPost {
+  min-height: 100px;
+  width: 475px;
+/*   border-top: 10px solid #a05b5a; */
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 10px solid #a05b5a;
+  position: relative;
+  background: #222222;
+}
+
+.mDText {
+  padding: 5px 30px 0px 30px;
+  position: relative;
+  margin-bottom: 100px;
+  white-space: break-spaces;
+  text-align: justify;
+  background: #222222;
+  color: white;
+  border-radius: 10px
+}
+
+.tagText {
+  border-radius: 10px 0 0 0;
+  margin-top: -128px;
+  position: relative;
+  height: 100px;
+  width: 300px;
+  padding: 40px 10px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  color: white;
+  white-space: nowrap;
+}
+
+.tagText::-webkit-scrollbar {
+  display: none;
+}
+
+.tagText a {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px white;
+}
+
+.tagText a:hover {
+  text-decoration: underline;
+}
+
+.mDhr {
+  border: 1px solid #A05B5B;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 225px;
+}
